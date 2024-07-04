@@ -1,0 +1,3 @@
+precondition: inputs[0] >= 1 and inputs[1] >= 1;
+domain_constraints: (inputs[0] == 0 or inputs[0] == 1) and (inputs[1] == 0 or inputs[1] == 1) and (outputs[0] == 0 or outputs[0] == 1);
+postcondition: outputs[0] == 1;

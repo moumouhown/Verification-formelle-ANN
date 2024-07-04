@@ -1,0 +1,7 @@
+eps=0.2	
+And(And([1 - eps <= inputs[0], inputs[0] <= 1 + eps]), 
+And([1 - eps <= inputs[1], inputs[1] <= 1 + eps]), Not(outputs[0] == 1), And(Or(inputs[0] >= 0, inputs[0] <= 1)),
+And(Or(outputs[0] == 0, outputs[0] == 1)), And(Or(inputs[1] >= 0, inputs[1] <= 1)))
+
+
+

@@ -1,0 +1,5 @@
+; Constraints
+(assert (and >= inputs[0] 1 >= inputs[1] 1) )
+(assert (and or ( == inputs[0] 0 == inputs[0] 1) or ( == inputs[1] 0 == inputs[1] 1) or ( == outputs[0] 0 == outputs[0] 1)) )
+(assert (== outputs[0] 1) )
+
